@@ -1,12 +1,19 @@
+
 @import "ui-variables";
 
 .overlay {
   color: @text-color;
   background-color: @overlay-background-color;
   padding: @component-padding;
-  border: 1px solid @overlay-border-color;
-  box-shadow: 0 0 10px @base-border-color;
+//   border: 1px solid @overlay-border-color;
+//  box-shadow: 0 0 10px @base-border-color;
   border-radius: @component-border-radius;
+
+
+    &.from-top {
+      top:58px;
+      border-radius:5px;
+    }
 
   .editor.mini {
     margin-bottom: @component-padding;
@@ -32,6 +39,7 @@
       }
 
       &.selected {
+        background-color: @highlight-color;
         .status.icon {
           color: @text-color-selected;
         }
