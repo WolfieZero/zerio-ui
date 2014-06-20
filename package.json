@@ -1,0 +1,11 @@
+{
+  "name": "zerio-ui",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Dark UI theme for Atom with icons for files (based on seti-ui)",
+  "license": "MIT",
+  "repository": "https://github.com/wolfiezero/zerio-ui",
+  "engines": {
+    "atom": ">0.99.0"
+  }
+}
